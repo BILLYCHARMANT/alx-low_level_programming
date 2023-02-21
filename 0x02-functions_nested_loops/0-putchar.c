@@ -1,20 +1,18 @@
-#include <main.h>
-#include "Charmant.h"
+#include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - prints _putchar, fllowd by a new linees
+ * Return: Alwys 0 (Success)
  */
 int main(void)
 {
-	char *Bl = "Charmant";
+	char billy[] = "_putchar";
 
-	while (*Bl)
+	int a;
+
+	for (a = 0; a < 8; a++)
 	{
-		_putchar(*Bl);
-		Bl++;
+		_putchar(billy[a]);
 	}
 	_putchar('\n');
-
 	return (0);
 }
