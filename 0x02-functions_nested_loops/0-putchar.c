@@ -1,3 +1,4 @@
+#include <main.h>
 #include "Charmant.h"
 /**
  * main - Entry point
